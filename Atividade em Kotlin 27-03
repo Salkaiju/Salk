@@ -12,8 +12,8 @@ class Pessoa(val nome: String, var idade: Int) {
 
 
 fun main() {
-    // Variáveis
-    val nomePessoa = "João"  // imutável
+    // Variáveis Val é imutável e var é mutável
+    val nomePessoa = "João" 
     var idadePessoa = 17     
     var saldoConta = 1000.50  
     var temCarteiraDeVoto = false  
