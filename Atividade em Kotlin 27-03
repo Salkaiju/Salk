@@ -21,10 +21,10 @@ fun main() {
     // objeto classe Pessoa
     val pessoa = Pessoa(nomePessoa, idadePessoa)
 
-    // Saudação pessoa
+    // Saudação
     println(pessoa.saudacao())
 
-    // Verif de maioridade
+    // Verif idade
     if (idadePessoa >= 18) {
         println("Maior de idade")
     } else {
@@ -32,11 +32,11 @@ fun main() {
     }
 
     // for
-    for (i in 1..5) {
+    for (i in 1..20) {
         println(i)
     }
 
-    // Alteração valor variável
+    // Alteração
     idadePessoa = 20
     println("Idade atualizada: $idadePessoa")
 
