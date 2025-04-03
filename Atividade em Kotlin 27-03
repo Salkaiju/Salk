@@ -1,0 +1,49 @@
+
+class Pessoa(val nome: String, var idade: Int) {
+
+    fun saudacao(): String {
+        return "Olá, meu nome é $nome e eu tenho $idade anos."
+    }
+// verifa se vota
+    fun podeVotar(): Boolean {
+        return idade >= 16
+    }
+}
+
+
+fun main() {
+    // Variáveis
+    val nomePessoa = "João"  // Tipo String (val, imutável)
+    var idadePessoa = 17     // Tipo Int (var, mutável)
+    var saldoConta = 1000.50  // Tipo Double (var, mutável)
+    var temCarteiraDeVoto = false  // Tipo Boolean (var, mutável)
+
+    // objeto da classe Pessoa
+    val pessoa = Pessoa(nomePessoa, idadePessoa)
+
+    // Saudação da pessoa
+    println(pessoa.saudacao())
+
+    // Verificação de maioridade
+    if (idadePessoa >= 18) {
+        println("Maior de idade")
+    } else {
+        println("Menor de idade")
+    }
+
+    // for
+    for (i in 1..5) {
+        println(i)
+    }
+
+    // Alteração valor variável
+    idadePessoa = 20
+    println("Idade atualizada: $idadePessoa")
+
+    // Verifa de voto
+    if (pessoa.podeVotar()) {
+        println("${pessoa.nome} pode votar.")
+    } else {
+        println("${pessoa.nome} não pode votar.")
+    }
+}
