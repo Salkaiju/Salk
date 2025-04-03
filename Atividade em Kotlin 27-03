@@ -18,13 +18,13 @@ fun main() {
     var saldoConta = 1000.50  // Tipo Double (var, mutável)
     var temCarteiraDeVoto = false  // Tipo Boolean (var, mutável)
 
-    // objeto da classe Pessoa
+    // objeto classe Pessoa
     val pessoa = Pessoa(nomePessoa, idadePessoa)
 
-    // Saudação da pessoa
+    // Saudação pessoa
     println(pessoa.saudacao())
 
-    // Verificação de maioridade
+    // Verif de maioridade
     if (idadePessoa >= 18) {
         println("Maior de idade")
     } else {
