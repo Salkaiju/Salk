@@ -1,0 +1,13 @@
+O Flutter é um framework de código aberto desenvolvido pelo Google para a criação de
+aplicações multiplataforma a partir de uma única base de código. Utilizando a linguagem
+Dart, o Flutter permite desenvolver aplicativos para Android, iOS, web e desktop (Windows,
+macOS e Linux), oferecendo uma experiência nativa em cada plataforma. Uma de suas
+principais vantagens é o recurso de "hot reload", que possibilita aos desenvolvedores
+visualizar instantaneamente as alterações no código, agilizando o processo de
+desenvolvimento.
+Diversas empresas renomadas adotaram o Flutter para desenvolver seus aplicativos. No
+cenário brasileiro, destacam-se o Nubank, iFood e QuintoAndar. Internacionalmente,
+empresas como Google (com aplicativos como Google Play, Google Ads e Google Earth),
+BMW e eBay Motors também utilizam o Flutter em seus produtos. Essa adoção demonstra
+a capacidade do Flutter em criar aplicações de alta qualidade e desempenho em diferentes
+plataformas
